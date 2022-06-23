@@ -1,0 +1,190 @@
+body {
+    font-family: Noto Sans, sans-serif;
+    font-size: 1rem;
+    color: #232323;
+    background: #eaebec;
+    margin: 0 auto;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.receita .area-receita {
+    margin-top: 10rem;
+}
+
+.text-xs-center {
+    text-align: center !important;
+}
+
+.receita .container-receita {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 15px;
+    background-color: #FFF;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px 0 rgb(56 67 122 / 50%);
+}
+
+.receita-simples-selected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.col-xs-6 {
+    width: 100%;
+    background: #277cea;
+}
+
+.h3-table-selected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+.p-regular-text p {
+    font-size: 16px;
+}
+
+.p-table p {
+    line-height: 16px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    color: #38437a;
+    letter-spacing: .2px;
+    line-height: 26px;
+}
+
+.receita .tabela-receita {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.table-bordered,
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #38437A;
+    border-right: 1px solid #5D79B0;
+}
+
+
+.text-xs-left {
+    text-align: left !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+
+}
+
+.table td,
+.table th {
+    vertical-align: inherit;
+    padding: .8rem;
+}
+
+
+.padding-content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.receita .tabela-receita select {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjVweCIgaGVpZ2h0PSIyNXB4IiB2aWV3Qm94PSIwIDAgMjUgMjUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjEgKDY3MDQ4KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5zZXRhIGJhaXhvPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+CiAgICAgICAgPGNpcmNsZSBpZD0icGF0aC0xIiBjeD0iOS4wMTE4OTExOSIgY3k9IjguODE4Mjk0MDMiIHI9IjguNSI+PC9jaXJjbGU+CiAgICAgICAgPGZpbHRlciB4PSItNDEuMiUiIHk9Ii0yOS40JSIgd2lkdGg9IjE4Mi40JSIgaGVpZ2h0PSIxODIuNCUiIGZpbHRlclVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgaWQ9ImZpbHRlci0yIj4KICAgICAgICAgICAgPGZlT2Zmc2V0IGR4PSIwIiBkeT0iMiIgaW49IlNvdXJjZUFscGhhIiByZXN1bHQ9InNoYWRvd09mZnNldE91dGVyMSI+PC9mZU9mZnNldD4KICAgICAgICAgICAgPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMiIgaW49InNoYWRvd09mZnNldE91dGVyMSIgcmVzdWx0PSJzaGFkb3dCbHVyT3V0ZXIxIj48L2ZlR2F1c3NpYW5CbHVyPgogICAgICAgICAgICA8ZmVDb2xvck1hdHJpeCB2YWx1ZXM9IjAgMCAwIDAgMC4zNjM1OTg3OTUgICAwIDAgMCAwIDAuNDc0ODYyODU1ICAgMCAwIDAgMCAwLjY5MDM0MzMyNSAgMCAwIDAgMSAwIiB0eXBlPSJtYXRyaXgiIGluPSJzaGFkb3dCbHVyT3V0ZXIxIj48L2ZlQ29sb3JNYXRyaXg+CiAgICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICA8ZyBpZD0iJmd0Oy1GZXJyYW1lbnRhLUQxIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iRDEtbW9iaWxlLXYxLXJlY2VpdGEtMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyNy4wMDAwMDAsIC00OTMuMDAwMDAwKSIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPGcgaWQ9InNldGEtYmFpeG8iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzMC4wMDAwMDAsIDQ5NS4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJPdmFsIj4KICAgICAgICAgICAgICAgICAgICA8dXNlIGZpbGw9ImJsYWNrIiBmaWxsLW9wYWNpdHk9IjEiIGZpbHRlcj0idXJsKCNmaWx0ZXItMikiIHhsaW5rOmhyZWY9IiNwYXRoLTEiPjwvdXNlPgogICAgICAgICAgICAgICAgICAgIDx1c2UgZmlsbD0iIzVENzlCMCIgeGxpbms6aHJlZj0iI3BhdGgtMSI+PC91c2U+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8cG9seWxpbmUgaWQ9IlBhdGgtMi1Db3B5LTYiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBwb2ludHM9IjMuMTIyMTc2OTggNy4wNzgxMzM2IDkuMDExODkxMTkgMTIuNTU4NDU0NSAxNC45MDE2MDU0IDcuMDc4MTMzNiI+PC9wb2x5bGluZT4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+) center right no-repeat transparent;
+    height: 48px;
+    color: #38437A;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    cursor: pointer;
+}
+
+.receita input,
+.receita select {
+    border: none;
+    background: transparent;
+    width: 100%;
+    color: #38437A;
+}
+
+
+@media (max-width: 700px) {
+    .receita .container-receita {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 15px;
+        background-color: #FFF;
+        border-radius: 30px;
+        height: 94vh;
+    }
+
+    .receita-simples-selected {
+        height: 60px;
+    }
+
+    .h3-table-selected {
+        font-size: 26px;
+    }
+
+    .p-table p {
+        line-height: 23px;
+        font-size: 17px;
+    }
+
+    .receita .area-receita {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .offset-lg-2 {
+        margin-left: 16.66667%;
+    }
+
+    .col-lg-8 {
+        float: left;
+        width: 66.66667%;
+        border: 1px solid #e5e5e5;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+        max-width: 100%;
+    }
+}

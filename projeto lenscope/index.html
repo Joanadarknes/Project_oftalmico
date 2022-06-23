@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto lenscope</title>
+    <link rel="icon" href="imgs/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="col-sm-12 receita">
+        <div class="row">
+            <div id="area-das-receitas" class="container area-receita">
+                <div class="col-lg-8 offset-lg-2 col-md-12 col-xs-12 offset-xs-0 text-xs-center">
+                    <div class="col-xs-12 container-receita">
+                        <div class="carousel carousel-d1 col-xs-12">
+                            <div id="receita-display-one" class="carousel-cell col-xs-12 display-visivel">
+                                <div class="titulo-navegacao">
+                                    <div class="col-xs-6 receita-simples-selected">
+                                        <h3 class="h3-table-selected">Receita</h3>
+                                    </div>
+                                </div>
+                                <div class="text-xs-center col-xs-12 p-table padding-content p-regular-text">
+                                    <p>Saiba quais são as lentes ideais para cada necessidade!</p>
+                                </div>
+                                <table class="tabela-receita receita-a table padding-content">
+                                    <tbody class="table-bordered">
+                                        <tr class="titulo">
+                                            <td class="superior-esq"></td>
+                                            <td class="esferico cor-selecao">
+                                                <p>ESF</p>
+                                            </td>
+                                            <td class="cilindrico">
+                                                <p>CIL</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="olho-direito">
+                                            <td class="titulo titulo-olho">
+                                                <p>OD</p>
+                                            </td>
+                                            <td class="esferico cor-selecao">
+                                                <select name="grau-od" id="esferico-OD">
+
+                                                </select>
+                                            </td>
+                                            <td class="cilindrico">
+                                                <select name="grauC-od" id="cilindrico-DR">
+
+                                                </select>
+                                            </td>
+
+                                        </tr>
+                                        <tr class="olho-esquerdo">
+                                            <td class="titulo titulo-olho inferior-esq">
+                                                <p>OE</p>
+                                            </td>
+                                            <td class="esferico cor-selecao">
+                                                <select name="grau-oe" id="esferico-OE"></select>
+                                            </td>
+                                            <td class="cilindrico">
+                                                <select name="grauC-oe" id="cilindrico-ES"></select>
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="informa-dnp col-xs-12 text-xs-left dnp-table open">
+                                    <p id="Resultado-Lente">Sua lente é:</p>
+                                </div>
+                            </div>
+
+                            <div class="desktop-table-info text-xs-left padding-content p-regular-text">
+                                <div class="col-sm-6 desktop-table-info p-regular-text-baixo">
+                                    <p>
+                                        OD = olho direito / OE = olho esquerdo<br>
+                                        ESF = esférico / CIL = cilíndrico<br>
+                                    </p>
+                                </div>
+                                <div class="col-sm-0 offset-xs-0 divider-container desktop-table-info">
+                                    <div class="divider"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
